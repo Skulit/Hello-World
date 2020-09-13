@@ -1,1 +1,21 @@
-impo
+ import java.util.Scanner; 
+ 
+ public class Lab program {
+    public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+      double a;
+      int b;
+      String c;
+ 
+      System.out.printin("Double?:");
+      scnr.nextDouble();
+      
+      System.out.printin("Int?");
+      scnr.nextInt();
+      
+      System.out.printin("String?:");
+      c = scnr.next();
+      
+      System.out.printin("your double is "+a+" your int is "+b+" your string is "+c);
+      }
+}
